@@ -1,0 +1,404 @@
+.myPhoto {
+  margin-top: 2vh;
+  max-height: 65vh;
+  max-width: 90vw;
+  width: auto;
+  border-radius: 5%;
+}
+
+h1 {
+  color: #ECEEF4;
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+  --primary-color: #34323C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at center, #706b81 0%, #34323C 100%);
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.rects {
+  position: fixed;
+  right: -5vw;
+  width: 100vw;
+  height: 100vh;
+  transform: rotate(0deg);
+  z-index: -1;
+}
+
+.rect {
+  --rect-color: var(--primary-color);
+  --rect-length: 12vw;
+  --rect-height: 2vw;
+  --rect-width: calc(var(--rect-length) / 6);
+  --movement-duration: 2s;
+  position: absolute;
+  top: var(--top-offset);
+  left: 0vw;
+  width: var(--rect-length);
+  height: var(--rect-height);
+  color: var(--rect-color);
+  background: currentColor;
+  filter: drop-shadow(0 0 1vh currentColor);
+  transform: translate3d(104vw, 0, 0);
+  animation: movement var(--movement-duration) var(--movement-delay) linear infinite;
+}
+.rect:nth-child(1) {
+  --rect-length: 6.48vw;
+  --top-offset: 37.05vh;
+  --movement-delay: 8.651s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(2) {
+  --rect-length: 6.22vw;
+  --top-offset: 69.91vh;
+  --movement-delay: 5.803s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(3) {
+  --rect-length: 6.08vw;
+  --top-offset: 74.12vh;
+  --movement-delay: 4.447s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(4) {
+  --rect-length: 6.84vw;
+  --top-offset: 40.51vh;
+  --movement-delay: 2.636s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(5) {
+  --rect-length: 6.19vw;
+  --top-offset: 33.06vh;
+  --movement-delay: 8.478s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(6) {
+  --rect-length: 5.16vw;
+  --top-offset: 85.55vh;
+  --movement-delay: 4.418s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(7) {
+  --rect-length: 7.16vw;
+  --top-offset: 65vh;
+  --movement-delay: 2.436s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(8) {
+  --rect-length: 7.48vw;
+  --top-offset: 12.96vh;
+  --movement-delay: 0.641s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(9) {
+  --rect-length: 6.16vw;
+  --top-offset: 74.3vh;
+  --movement-delay: 2.841s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(10) {
+  --rect-length: 5.53vw;
+  --top-offset: 34.55vh;
+  --movement-delay: 0.504s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(11) {
+  --rect-length: 6.13vw;
+  --top-offset: 0.89vh;
+  --movement-delay: 6.975s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(12) {
+  --rect-length: 6.73vw;
+  --top-offset: 47.41vh;
+  --movement-delay: 2.847s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(13) {
+  --rect-length: 5.64vw;
+  --top-offset: 52.92vh;
+  --movement-delay: 8.143s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(14) {
+  --rect-length: 5.6vw;
+  --top-offset: 99.43vh;
+  --movement-delay: 5.18s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(15) {
+  --rect-length: 6.59vw;
+  --top-offset: 14.09vh;
+  --movement-delay: 8.43s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(16) {
+  --rect-length: 6.52vw;
+  --top-offset: 10.13vh;
+  --movement-delay: 3.121s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(17) {
+  --rect-length: 6.53vw;
+  --top-offset: 7.5vh;
+  --movement-delay: 5.978s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(18) {
+  --rect-length: 5.1vw;
+  --top-offset: 70.81vh;
+  --movement-delay: 7.059s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(19) {
+  --rect-length: 6.93vw;
+  --top-offset: 90.11vh;
+  --movement-delay: 8.006s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(20) {
+  --rect-length: 7.14vw;
+  --top-offset: 11.12vh;
+  --movement-delay: 5.328s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(21) {
+  --rect-length: 5.8vw;
+  --top-offset: 57.33vh;
+  --movement-delay: 5.312s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(22) {
+  --rect-length: 5.45vw;
+  --top-offset: 2.23vh;
+  --movement-delay: 5.095s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(23) {
+  --rect-length: 6.95vw;
+  --top-offset: 65.8vh;
+  --movement-delay: 7.726s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(24) {
+  --rect-length: 5.44vw;
+  --top-offset: 31.42vh;
+  --movement-delay: 4.485s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(25) {
+  --rect-length: 6.23vw;
+  --top-offset: 7.6vh;
+  --movement-delay: 9.863s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(26) {
+  --rect-length: 6.98vw;
+  --top-offset: 0.81vh;
+  --movement-delay: 6.422s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(27) {
+  --rect-length: 7.2vw;
+  --top-offset: 26.79vh;
+  --movement-delay: 9.814s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(28) {
+  --rect-length: 6.28vw;
+  --top-offset: 86.47vh;
+  --movement-delay: 8.604s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(29) {
+  --rect-length: 6.46vw;
+  --top-offset: 75.96vh;
+  --movement-delay: 0.28s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(30) {
+  --rect-length: 6.45vw;
+  --top-offset: 98.61vh;
+  --movement-delay: 9.801s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(31) {
+  --rect-length: 6.52vw;
+  --top-offset: 10.06vh;
+  --movement-delay: 4.729s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(32) {
+  --rect-length: 6.41vw;
+  --top-offset: 39.65vh;
+  --movement-delay: 0.143s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(33) {
+  --rect-length: 5.93vw;
+  --top-offset: 44.92vh;
+  --movement-delay: 8.907s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(34) {
+  --rect-length: 6.38vw;
+  --top-offset: 51.22vh;
+  --movement-delay: 4.298s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(35) {
+  --rect-length: 5.88vw;
+  --top-offset: 68.2vh;
+  --movement-delay: 6.403s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(36) {
+  --rect-length: 5.1vw;
+  --top-offset: 32.37vh;
+  --movement-delay: 1.249s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(37) {
+  --rect-length: 7.22vw;
+  --top-offset: 86.68vh;
+  --movement-delay: 9.53s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(38) {
+  --rect-length: 5.72vw;
+  --top-offset: 32.49vh;
+  --movement-delay: 5.689s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(39) {
+  --rect-length: 5.08vw;
+  --top-offset: 77.32vh;
+  --movement-delay: 0.884s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(40) {
+  --rect-length: 7.16vw;
+  --top-offset: 66.64vh;
+  --movement-delay: 0.446s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(41) {
+  --rect-length: 7.16vw;
+  --top-offset: 32.19vh;
+  --movement-delay: 6.085s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(42) {
+  --rect-length: 6.71vw;
+  --top-offset: 57.41vh;
+  --movement-delay: 3.153s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(43) {
+  --rect-length: 6.13vw;
+  --top-offset: 22.98vh;
+  --movement-delay: 4.447s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(44) {
+  --rect-length: 6.55vw;
+  --top-offset: 60.49vh;
+  --movement-delay: 2.628s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(45) {
+  --rect-length: 5.93vw;
+  --top-offset: 79.19vh;
+  --movement-delay: 0.484s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(46) {
+  --rect-length: 5.51vw;
+  --top-offset: 38.05vh;
+  --movement-delay: 2.786s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(47) {
+  --rect-length: 5.43vw;
+  --top-offset: 56.26vh;
+  --movement-delay: 6.178s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(48) {
+  --rect-length: 5.93vw;
+  --top-offset: 69.2vh;
+  --movement-delay: 3.02s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(49) {
+  --rect-length: 5.57vw;
+  --top-offset: 16.56vh;
+  --movement-delay: 8.576s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(50) {
+  --rect-length: 5.66vw;
+  --top-offset: 94.14vh;
+  --movement-delay: 8.885s;
+  --rect-color: #EC7A64;
+}
+
+@keyframes movement {
+  to {
+    transform: translate3d(-30em, 0, 0);
+  }
+}
+.contactButtons {
+  margin-top: 3vh;
+  display: flex;
+  gap: 2vw;
+}
+
+.contactButton {
+  display: flex;
+  flex-direction: column;
+  height: 8vh;
+  width: 8vh;
+  align-items: center;
+  background-color: #ECEEF4;
+  border: 0.25vw solid #ECEEF4;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.icon {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projectsButton {
+  margin-top: 3vh;
+  width: 35vh;
+  height: 8vh;
+  background-color: #ECEEF4;
+  border: none;
+  color: #34323C;
+  border-radius: 2vh;
+  text-align: center;
+  text-decoration: none;
+  font-size: 4vh;
+}
+
+.greenShadow {
+  box-shadow: 0 1vh 2vh 0 rgba(37, 211, 102, 0.2), 0 0.8vh 2.5vh 0 rgba(37, 211, 102, 0.19);
+}
+
+.blueShadow {
+  box-shadow: 0 1vh 2vh 0 rgba(14, 118, 168, 0.2), 0 0.8vh 2.5vh rgba(14, 118, 168, 0.19);
+}
+
+.blackShadow {
+  box-shadow: 0 1vh 2vh 0 rgba(0, 0, 0, 0.2), 0 0.8vh 2.5vh 0 rgba(0, 0, 0, 0.19);
+}/*# sourceMappingURL=main.css.map */

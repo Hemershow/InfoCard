@@ -1,0 +1,132 @@
+$colors: #ECEEF4, #EC7A64, #E4366C;
+
+.myPhoto {
+    margin-top: 2vh;
+    // height: 65vh;
+    max-height: 65vh;
+    max-width: 90vw;
+    width: auto;
+    border-radius: 5%;
+}
+
+h1 {
+    color: #ECEEF4;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    --primary-color: #34323C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(ellipse at center, #706b81 0%, #34323C 100%);
+    overflow: hidden;
+    margin-top: 0;
+}
+
+@function random_range($min, $max) {
+    $rand: random();
+    $random_range: $min + floor($rand * (($max - $min) + 1));
+    @return $random_range;
+}
+
+.rects {
+    position: fixed;
+    right: -5vw;
+    width: 100vw;
+    height: 100vh;
+    transform: rotate(0deg);
+    z-index: -1;
+}
+
+.rect {
+    $rect-count: 50;
+    --rect-color: var(--primary-color);
+    --rect-length: 12vw;
+    --rect-height: 2vw;
+    --rect-width: calc(var(--rect-length) / 6);
+    --movement-duration: 2s;
+
+    position: absolute;
+    top: var(--top-offset);
+    left: 0vw;
+    width: var(--rect-length);
+    height: var(--rect-height);
+    color: var(--rect-color);
+    background: currentColor;
+    filter: drop-shadow(0 0 1vh currentColor);
+    transform: translate3d(104vw, 0, 0);
+    animation: movement var(--movement-duration) var(--movement-delay) linear infinite;
+
+    @for $i from 1 through $rect-count {
+        &:nth-child(#{$i}) {
+            --rect-length: #{random_range(500vw, 750vw) / 100};
+            --top-offset: #{random_range(0vh, 10000vh) / 100};
+            --movement-delay: #{random_range(0, 10000s) / 1000};
+            --rect-color: #{nth($colors, random(length($colors)))};
+        }
+    }
+}
+
+@keyframes movement {
+    to {
+        transform: translate3d(-30em, 0, 0);
+    }
+}
+
+// .content {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+.contactButtons {
+    margin-top: 3vh;
+    display: flex;
+    gap: 2vw;
+}
+
+.contactButton {
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    width: 8vh;
+    align-items: center;
+    background-color: #ECEEF4;
+    border: 0.25vw solid #ECEEF4;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.icon {
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.projectsButton {
+    margin-top: 3vh;
+    width: 35vh;
+    height: 8vh;
+    background-color: #ECEEF4;
+    border: none;
+    color: #34323C;
+    border-radius: 2vh;
+    text-align: center;
+    text-decoration: none;
+    font-size: 4vh;
+}
+
+.greenShadow {
+    box-shadow: 0 1vh 2vh 0 rgba(37, 211, 102, 0.2), 0 0.8vh 2.5vh 0 rgba(37, 211, 102, 0.19);
+}
+
+.blueShadow {
+    box-shadow: 0 1vh 2vh 0 rgba(14, 118, 168, 0.2), 0 0.8vh 2.5vh rgba(14, 118, 168, 0.19);
+}
+
+.blackShadow {
+    box-shadow: 0 1vh 2vh 0 rgba(0, 0, 0, 0.2), 0 0.8vh 2.5vh 0 rgba(0, 0, 0, 0.19);
+}
