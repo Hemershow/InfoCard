@@ -1,20 +1,7 @@
 $colors: #ECEEF4, #EC7A64, #E4366C;
 
-.mainImage {
-    margin-top: 2vh;
-    // height: 65vh;
-    max-height: 65vh;
-    max-width: 90vw;
-    width: auto;
-    border-radius: 5%;
-}
-
-h1 {
-    color: #ECEEF4;
-    font-family: 'Inconsolata', monospace;
-}
-
 body {
+    font-family: 'Inconsolata', monospace;
     --primary-color: #34323C;
     display: flex;
     flex-direction: column;
@@ -29,6 +16,63 @@ body {
     $rand: random();
     $random_range: $min + floor($rand * (($max - $min) + 1));
     @return $random_range;
+}
+
+h1 {
+    color: #ECEEF4;
+}
+
+.mainImage {
+    display: block;
+    margin-top: 1vh;
+    height: 95%;
+    width: auto;
+    z-index: 2;
+}
+
+#myText {
+    background-color: #ECEEF4;
+    position: fixed;
+    width: 42vh;
+    z-index: 3;
+    height: 10vh;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    bottom: 40vh;
+    font-size: 3vh;
+}
+
+.cardDiv 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+    height: 60vh;
+    width: 45vh;
+    background-color: #ECEEF4;
+    border-radius: 5%;
+    z-index: 1;
+}
+
+.slider 
+{
+    width: 5vh;
+    height: 1vh;
+    border-radius: 1vh;
+    background-color: #E4366C;
+    margin: 3vh;
+    margin-top: 57vh;
+    border: none;
+}
+
+#sliders
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    overflow: visible;
+    visibility: hidden;
 }
 
 .rects {
@@ -75,20 +119,46 @@ body {
     }
 }
 
-// .content {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-// }
-
-.contactButtons {
+#contactButtons {
     margin-top: 3vh;
     display: flex;
     gap: 2vw;
 }
 
-.contactButton {
+#switchButtons {
+    display: none;
+    margin-top: 3vh;
+    gap: 4vw;
+}
+
+#projectImgDiv 
+{
+    display: none;
+    width: 40vh;
+    margin-top: 6%;
+    height: 93%;
+    overflow: hidden;
+}
+
+#projectTextDiv 
+{
+    display: none;
+    width: 38vh;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-size: 2.7vh;
+    text-align: justify;
+    height: 93%;
+    overflow: hidden;
+}
+
+#projectImg
+{
+    width: 100%;
+    height: 100%;
+}
+
+.myButton {
     display: flex;
     flex-direction: column;
     height: 8vh;
@@ -117,6 +187,9 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 4vh;
+    width: 35vh;
+    border-radius: 2vh;
+    padding: 0;
 }
 
 .greenShadow {

@@ -11,17 +11,38 @@
     <title>HemerDev</title>
 </head>
 <body>
-    <img src="../assets/me.png" id="me" class="mainImage" alt="A photo of me drinking some coffee">
-    <div class="mainImage" id="projects"></div>
-    <div class="contactButtons">
+    <div class="cardDiv">
+        <div id="projectImgDiv">
+            <img id="projectImg">
+        </div>
+        <div class="mainImage" id="mainImageDiv">
+            <img src="../assets/me.jpeg" id="me" class="mainImage" alt="A photo of me drinking some coffee">
+        </div>
+        <div id="projectTextDiv">
+            asdasdas
+        </div>
+        <div id="myText">
+            Software Developer:<br>Hemerson Violin
+        </div>
+        <div id="sliders">
+            <button class="slider" onclick="selectProject(this)"></button>
+            <button class="slider" onclick="selectProject(this)"></button>
+            <button class="slider" onclick="selectProject(this)"></button>
+        </div>
+    </div>
+    <div id="switchButtons">
+        <button class="myButton blueShadow" onclick="switchProject(-1)"><img src="../assets/left.png" class="icon" alt="Next project button."></button>
+        <button class="myButton blueShadow" onclick="switchProject(1)"><img src="../assets/right.png" class="icon" alt="Next project button."></button>
+    </div>
+    <div id="contactButtons">
         <a href="https://wa.me/5541995785655">
-            <button class="contactButton greenShadow"><img src="../assets/whatsapp.svg" class="icon" alt="My Whatsapp, contact button."></button>
+            <button class="myButton greenShadow"><img src="../assets/whatsapp.svg" class="icon" alt="My Whatsapp, contact button."></button>
         </a>
         <a href="https://www.linkedin.com/in/hemerson-violin">
-            <button class="contactButton blueShadow"><img src="../assets/linkedin.svg" class="icon" alt="My LinkedIn, contact button."></button>
+            <button class="myButton blueShadow"><img src="../assets/linkedin.svg" class="icon" alt="My LinkedIn, contact button."></button>
         </a>
         <a href="https://github.com/Hemershow">
-            <button class="contactButton blackShadow"><img src="../assets/github.svg" class="icon" alt="My GitHub, contact button."></button>
+            <button class="myButton blackShadow"><img src="../assets/github.svg" class="icon" alt="My GitHub, contact button."></button>
         </a>
     </div>
     <div>
