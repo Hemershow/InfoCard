@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     background: radial-gradient(ellipse at center, #706b81 0%, #34323C 100%);
     overflow: hidden;
     margin-top: 0;
@@ -31,15 +31,17 @@ h1 {
 }
 
 #myText {
-    background-color: #ECEEF4;
     position: absolute;
+    margin-top: 45vh;
+    z-index: 3;
+    background-color: #ECEEF4;
     width: 42vh;
     z-index: 3;
     height: 10vh;
-    padding-top: 2vh;
-    padding-left: 2vh;
-    bottom: 40vh;
     font-size: 3vh;
+    padding-left: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 .cardDiv 
