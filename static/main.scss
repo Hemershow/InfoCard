@@ -32,7 +32,7 @@ h1 {
 
 #myText {
     background-color: #ECEEF4;
-    position: fixed;
+    position: absolute;
     width: 42vh;
     z-index: 3;
     height: 10vh;
@@ -90,7 +90,7 @@ h1 {
     --rect-length: 12vw;
     --rect-height: 2vw;
     --rect-width: calc(var(--rect-length) / 6);
-    --movement-duration: 2s;
+    --movement-duration: 1s;
 
     position: absolute;
     top: var(--top-offset);

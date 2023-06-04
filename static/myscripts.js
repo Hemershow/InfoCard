@@ -11,8 +11,8 @@ const projectTextDiv = document.getElementById("projectTextDiv");
 const slidersAmount = document.getElementsByClassName("slider").length;
 const projectImg = document.getElementById("projectImg");
 
-const images = ["../assets/camera.gif", "../assets/camera.gif", "../assets/camera.gif"];
-const descriptions = ["Hey, this is a project that does this auidasd", "A face tracking camera using 2 9g servos, a 3D printed support, and an Arduino Uno. The main difference in this project compared to others I've found is the use of a PID controller algorithm to make it more stable. ", "Not much here"];
+const images = ["../assets/py.png", "../assets/camera.gif", "../assets/empty.png"];
+const descriptions = ["Work in progress", "A face tracking camera using 2 9g servos, a 3D printed support, and an Arduino Uno. The main difference in this project compared to others I've found is the use of a PID controller algorithm to make it more stable. ", "Work in progress"];
 
 var currentProject = 1;
 var buttonActive = true;
