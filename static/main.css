@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 100vh;
   background: radial-gradient(ellipse at center, #706b81 0%, #34323C 100%);
   overflow: hidden;
@@ -40,7 +41,6 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2vh;
   height: 60vh;
   width: 45vh;
   background-color: #ECEEF4;
@@ -93,304 +93,304 @@ h1 {
   animation: movement var(--movement-duration) var(--movement-delay) linear infinite;
 }
 .rect:nth-child(1) {
-  --rect-length: 6.66vw;
-  --top-offset: 7.06vh;
-  --movement-delay: 2.111s;
+  --rect-length: 6.63vw;
+  --top-offset: 44.92vh;
+  --movement-delay: 1.757s;
   --rect-color: #ECEEF4;
 }
 .rect:nth-child(2) {
-  --rect-length: 6.82vw;
-  --top-offset: 74.81vh;
-  --movement-delay: 1.538s;
-  --rect-color: #ECEEF4;
+  --rect-length: 6.13vw;
+  --top-offset: 67.59vh;
+  --movement-delay: 6.379s;
+  --rect-color: #EC7A64;
 }
 .rect:nth-child(3) {
-  --rect-length: 5.27vw;
-  --top-offset: 8.69vh;
-  --movement-delay: 2.359s;
+  --rect-length: 5.29vw;
+  --top-offset: 4.16vh;
+  --movement-delay: 1.017s;
   --rect-color: #E4366C;
 }
 .rect:nth-child(4) {
-  --rect-length: 5.05vw;
-  --top-offset: 41.39vh;
-  --movement-delay: 6.662s;
+  --rect-length: 6.74vw;
+  --top-offset: 71.33vh;
+  --movement-delay: 0.387s;
   --rect-color: #EC7A64;
 }
 .rect:nth-child(5) {
-  --rect-length: 6.9vw;
-  --top-offset: 8.26vh;
-  --movement-delay: 3.209s;
-  --rect-color: #EC7A64;
+  --rect-length: 6.16vw;
+  --top-offset: 50.21vh;
+  --movement-delay: 1.411s;
+  --rect-color: #E4366C;
 }
 .rect:nth-child(6) {
-  --rect-length: 5.55vw;
-  --top-offset: 62.08vh;
-  --movement-delay: 4.624s;
+  --rect-length: 5.27vw;
+  --top-offset: 79.91vh;
+  --movement-delay: 8.766s;
   --rect-color: #EC7A64;
 }
 .rect:nth-child(7) {
-  --rect-length: 6.33vw;
-  --top-offset: 94.27vh;
-  --movement-delay: 0.736s;
-  --rect-color: #E4366C;
+  --rect-length: 6.97vw;
+  --top-offset: 54.34vh;
+  --movement-delay: 8.93s;
+  --rect-color: #ECEEF4;
 }
 .rect:nth-child(8) {
-  --rect-length: 5.55vw;
-  --top-offset: 5.03vh;
-  --movement-delay: 5.525s;
+  --rect-length: 6.18vw;
+  --top-offset: 51.52vh;
+  --movement-delay: 7.815s;
   --rect-color: #EC7A64;
 }
 .rect:nth-child(9) {
-  --rect-length: 7.35vw;
-  --top-offset: 45.46vh;
-  --movement-delay: 8.681s;
+  --rect-length: 5.17vw;
+  --top-offset: 23.37vh;
+  --movement-delay: 5.835s;
   --rect-color: #EC7A64;
 }
 .rect:nth-child(10) {
-  --rect-length: 6.04vw;
-  --top-offset: 45.76vh;
-  --movement-delay: 2.073s;
+  --rect-length: 7.15vw;
+  --top-offset: 21.42vh;
+  --movement-delay: 1.139s;
   --rect-color: #E4366C;
 }
 .rect:nth-child(11) {
-  --rect-length: 7.2vw;
-  --top-offset: 55.47vh;
-  --movement-delay: 3.998s;
-  --rect-color: #E4366C;
-}
-.rect:nth-child(12) {
-  --rect-length: 6.91vw;
-  --top-offset: 82.76vh;
-  --movement-delay: 8.262s;
+  --rect-length: 5.12vw;
+  --top-offset: 12.65vh;
+  --movement-delay: 2.422s;
   --rect-color: #EC7A64;
 }
+.rect:nth-child(12) {
+  --rect-length: 7.41vw;
+  --top-offset: 85.61vh;
+  --movement-delay: 4.865s;
+  --rect-color: #E4366C;
+}
 .rect:nth-child(13) {
-  --rect-length: 5.81vw;
-  --top-offset: 18.53vh;
-  --movement-delay: 1.861s;
-  --rect-color: #ECEEF4;
+  --rect-length: 6.52vw;
+  --top-offset: 75.74vh;
+  --movement-delay: 9.363s;
+  --rect-color: #EC7A64;
 }
 .rect:nth-child(14) {
-  --rect-length: 7.33vw;
-  --top-offset: 9.16vh;
-  --movement-delay: 1.266s;
+  --rect-length: 6.26vw;
+  --top-offset: 34.88vh;
+  --movement-delay: 3.656s;
   --rect-color: #E4366C;
 }
 .rect:nth-child(15) {
-  --rect-length: 5.58vw;
-  --top-offset: 99.7vh;
-  --movement-delay: 5.208s;
-  --rect-color: #E4366C;
+  --rect-length: 5.24vw;
+  --top-offset: 11.91vh;
+  --movement-delay: 0.618s;
+  --rect-color: #EC7A64;
 }
 .rect:nth-child(16) {
-  --rect-length: 6.31vw;
-  --top-offset: 90.65vh;
-  --movement-delay: 3.556s;
-  --rect-color: #ECEEF4;
+  --rect-length: 5.03vw;
+  --top-offset: 28.93vh;
+  --movement-delay: 7.421s;
+  --rect-color: #EC7A64;
 }
 .rect:nth-child(17) {
-  --rect-length: 5.55vw;
-  --top-offset: 72.63vh;
-  --movement-delay: 5.977s;
+  --rect-length: 7.03vw;
+  --top-offset: 30.82vh;
+  --movement-delay: 9.276s;
   --rect-color: #ECEEF4;
 }
 .rect:nth-child(18) {
-  --rect-length: 5.72vw;
-  --top-offset: 31.15vh;
-  --movement-delay: 6.301s;
+  --rect-length: 6.42vw;
+  --top-offset: 46vh;
+  --movement-delay: 2.035s;
   --rect-color: #ECEEF4;
 }
 .rect:nth-child(19) {
-  --rect-length: 6.28vw;
-  --top-offset: 92.36vh;
-  --movement-delay: 1.565s;
+  --rect-length: 5.47vw;
+  --top-offset: 44.12vh;
+  --movement-delay: 3.771s;
   --rect-color: #ECEEF4;
 }
 .rect:nth-child(20) {
-  --rect-length: 5.32vw;
-  --top-offset: 58.98vh;
-  --movement-delay: 3.345s;
-  --rect-color: #EC7A64;
+  --rect-length: 5.17vw;
+  --top-offset: 94.63vh;
+  --movement-delay: 7.075s;
+  --rect-color: #E4366C;
 }
 .rect:nth-child(21) {
-  --rect-length: 6.36vw;
-  --top-offset: 25.96vh;
-  --movement-delay: 8.075s;
-  --rect-color: #EC7A64;
+  --rect-length: 6.75vw;
+  --top-offset: 11.27vh;
+  --movement-delay: 4.679s;
+  --rect-color: #ECEEF4;
 }
 .rect:nth-child(22) {
-  --rect-length: 5.35vw;
-  --top-offset: 24.15vh;
-  --movement-delay: 6.209s;
-  --rect-color: #E4366C;
+  --rect-length: 7.48vw;
+  --top-offset: 68.63vh;
+  --movement-delay: 1.406s;
+  --rect-color: #EC7A64;
 }
 .rect:nth-child(23) {
-  --rect-length: 6.28vw;
-  --top-offset: 72.67vh;
-  --movement-delay: 0.12s;
-  --rect-color: #E4366C;
+  --rect-length: 5.52vw;
+  --top-offset: 27.12vh;
+  --movement-delay: 8.238s;
+  --rect-color: #ECEEF4;
 }
 .rect:nth-child(24) {
-  --rect-length: 5.24vw;
-  --top-offset: 52.59vh;
-  --movement-delay: 8.793s;
-  --rect-color: #ECEEF4;
+  --rect-length: 6.27vw;
+  --top-offset: 48.81vh;
+  --movement-delay: 2.565s;
+  --rect-color: #E4366C;
 }
 .rect:nth-child(25) {
-  --rect-length: 5.65vw;
-  --top-offset: 21.09vh;
-  --movement-delay: 6.551s;
-  --rect-color: #ECEEF4;
+  --rect-length: 7.39vw;
+  --top-offset: 30.78vh;
+  --movement-delay: 7.824s;
+  --rect-color: #EC7A64;
 }
 .rect:nth-child(26) {
-  --rect-length: 5.34vw;
-  --top-offset: 4.97vh;
-  --movement-delay: 8.474s;
+  --rect-length: 6.73vw;
+  --top-offset: 86.19vh;
+  --movement-delay: 1.408s;
   --rect-color: #E4366C;
 }
 .rect:nth-child(27) {
-  --rect-length: 7.44vw;
-  --top-offset: 11.89vh;
-  --movement-delay: 5.027s;
+  --rect-length: 7.47vw;
+  --top-offset: 45.6vh;
+  --movement-delay: 0.628s;
   --rect-color: #ECEEF4;
 }
 .rect:nth-child(28) {
-  --rect-length: 5.81vw;
-  --top-offset: 17.76vh;
-  --movement-delay: 1.253s;
-  --rect-color: #E4366C;
+  --rect-length: 6.5vw;
+  --top-offset: 76.99vh;
+  --movement-delay: 2.459s;
+  --rect-color: #EC7A64;
 }
 .rect:nth-child(29) {
-  --rect-length: 5.04vw;
-  --top-offset: 35.6vh;
-  --movement-delay: 1.932s;
+  --rect-length: 5.62vw;
+  --top-offset: 44.65vh;
+  --movement-delay: 8.37s;
   --rect-color: #ECEEF4;
 }
 .rect:nth-child(30) {
-  --rect-length: 5.5vw;
-  --top-offset: 20.69vh;
-  --movement-delay: 6.81s;
-  --rect-color: #ECEEF4;
+  --rect-length: 5.21vw;
+  --top-offset: 2.45vh;
+  --movement-delay: 4.732s;
+  --rect-color: #EC7A64;
 }
 .rect:nth-child(31) {
-  --rect-length: 5.99vw;
-  --top-offset: 79.39vh;
-  --movement-delay: 5.248s;
-  --rect-color: #E4366C;
+  --rect-length: 5.8vw;
+  --top-offset: 13.82vh;
+  --movement-delay: 5.295s;
+  --rect-color: #ECEEF4;
 }
 .rect:nth-child(32) {
-  --rect-length: 6.36vw;
-  --top-offset: 42.32vh;
-  --movement-delay: 2.157s;
+  --rect-length: 6.27vw;
+  --top-offset: 18.1vh;
+  --movement-delay: 6.289s;
   --rect-color: #E4366C;
 }
 .rect:nth-child(33) {
-  --rect-length: 5.94vw;
-  --top-offset: 71.86vh;
-  --movement-delay: 0.097s;
-  --rect-color: #EC7A64;
+  --rect-length: 7.45vw;
+  --top-offset: 47.42vh;
+  --movement-delay: 5.23s;
+  --rect-color: #E4366C;
 }
 .rect:nth-child(34) {
-  --rect-length: 6.27vw;
-  --top-offset: 10.87vh;
-  --movement-delay: 9.926s;
+  --rect-length: 7.43vw;
+  --top-offset: 53.56vh;
+  --movement-delay: 2.593s;
   --rect-color: #EC7A64;
 }
 .rect:nth-child(35) {
-  --rect-length: 5.65vw;
-  --top-offset: 14.79vh;
-  --movement-delay: 9s;
-  --rect-color: #EC7A64;
-}
-.rect:nth-child(36) {
-  --rect-length: 5.72vw;
-  --top-offset: 53.25vh;
-  --movement-delay: 2.934s;
-  --rect-color: #EC7A64;
-}
-.rect:nth-child(37) {
-  --rect-length: 5.71vw;
-  --top-offset: 39.6vh;
-  --movement-delay: 2.156s;
-  --rect-color: #E4366C;
-}
-.rect:nth-child(38) {
-  --rect-length: 6.63vw;
-  --top-offset: 42.31vh;
-  --movement-delay: 6.917s;
+  --rect-length: 6.81vw;
+  --top-offset: 87.45vh;
+  --movement-delay: 2.466s;
   --rect-color: #ECEEF4;
 }
+.rect:nth-child(36) {
+  --rect-length: 5.16vw;
+  --top-offset: 90.86vh;
+  --movement-delay: 2.805s;
+  --rect-color: #ECEEF4;
+}
+.rect:nth-child(37) {
+  --rect-length: 5.1vw;
+  --top-offset: 41.77vh;
+  --movement-delay: 4.173s;
+  --rect-color: #EC7A64;
+}
+.rect:nth-child(38) {
+  --rect-length: 7.3vw;
+  --top-offset: 82.85vh;
+  --movement-delay: 7.561s;
+  --rect-color: #E4366C;
+}
 .rect:nth-child(39) {
-  --rect-length: 5.53vw;
-  --top-offset: 52.09vh;
-  --movement-delay: 7.981s;
+  --rect-length: 6.59vw;
+  --top-offset: 1.19vh;
+  --movement-delay: 3.313s;
   --rect-color: #E4366C;
 }
 .rect:nth-child(40) {
-  --rect-length: 6vw;
-  --top-offset: 94.27vh;
-  --movement-delay: 0.53s;
+  --rect-length: 6.95vw;
+  --top-offset: 38.22vh;
+  --movement-delay: 1.526s;
   --rect-color: #ECEEF4;
 }
 .rect:nth-child(41) {
-  --rect-length: 7.29vw;
-  --top-offset: 73.56vh;
-  --movement-delay: 4.5s;
+  --rect-length: 5.34vw;
+  --top-offset: 36.29vh;
+  --movement-delay: 1.151s;
   --rect-color: #ECEEF4;
 }
 .rect:nth-child(42) {
-  --rect-length: 5.44vw;
-  --top-offset: 56.99vh;
-  --movement-delay: 3.666s;
-  --rect-color: #EC7A64;
+  --rect-length: 7.26vw;
+  --top-offset: 12.19vh;
+  --movement-delay: 0.497s;
+  --rect-color: #ECEEF4;
 }
 .rect:nth-child(43) {
-  --rect-length: 5.92vw;
-  --top-offset: 46.69vh;
-  --movement-delay: 9.289s;
+  --rect-length: 6.09vw;
+  --top-offset: 27.52vh;
+  --movement-delay: 3.713s;
   --rect-color: #E4366C;
 }
 .rect:nth-child(44) {
-  --rect-length: 5.93vw;
-  --top-offset: 33.18vh;
-  --movement-delay: 7.255s;
-  --rect-color: #EC7A64;
+  --rect-length: 6.31vw;
+  --top-offset: 46.74vh;
+  --movement-delay: 5.985s;
+  --rect-color: #ECEEF4;
 }
 .rect:nth-child(45) {
-  --rect-length: 6.23vw;
-  --top-offset: 65.59vh;
-  --movement-delay: 9.202s;
+  --rect-length: 5.08vw;
+  --top-offset: 40.1vh;
+  --movement-delay: 7.943s;
   --rect-color: #E4366C;
 }
 .rect:nth-child(46) {
-  --rect-length: 7.46vw;
-  --top-offset: 10.69vh;
-  --movement-delay: 8.849s;
-  --rect-color: #EC7A64;
-}
-.rect:nth-child(47) {
-  --rect-length: 5.21vw;
-  --top-offset: 23.97vh;
-  --movement-delay: 2.561s;
-  --rect-color: #EC7A64;
-}
-.rect:nth-child(48) {
-  --rect-length: 5.7vw;
-  --top-offset: 49.71vh;
-  --movement-delay: 3.104s;
+  --rect-length: 6.56vw;
+  --top-offset: 8.44vh;
+  --movement-delay: 7.739s;
   --rect-color: #E4366C;
 }
+.rect:nth-child(47) {
+  --rect-length: 5.77vw;
+  --top-offset: 17.07vh;
+  --movement-delay: 7.695s;
+  --rect-color: #E4366C;
+}
+.rect:nth-child(48) {
+  --rect-length: 6.97vw;
+  --top-offset: 14vh;
+  --movement-delay: 1.91s;
+  --rect-color: #ECEEF4;
+}
 .rect:nth-child(49) {
-  --rect-length: 7.18vw;
-  --top-offset: 36.68vh;
-  --movement-delay: 0.531s;
-  --rect-color: #EC7A64;
+  --rect-length: 5.14vw;
+  --top-offset: 94.52vh;
+  --movement-delay: 2.832s;
+  --rect-color: #ECEEF4;
 }
 .rect:nth-child(50) {
-  --rect-length: 6.42vw;
-  --top-offset: 53.76vh;
-  --movement-delay: 9.447s;
-  --rect-color: #ECEEF4;
+  --rect-length: 6.15vw;
+  --top-offset: 89.19vh;
+  --movement-delay: 2.644s;
+  --rect-color: #EC7A64;
 }
 
 @keyframes movement {
@@ -401,6 +401,8 @@ h1 {
 #contactButtons {
   margin-top: 3vh;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   gap: 2vw;
 }
 

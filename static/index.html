@@ -11,41 +11,29 @@
     <title>HemerDev</title>
 </head>
 <body>
-    <div class="cardDiv">
-        <div id="projectImgDiv">
-            <img id="projectImg">
+    <div class="content">
+        <div class="cardDiv">
+            <div id="projectImgDiv">
+                <img id="projectImg">
+            </div>
+            <div class="mainImage" id="mainImageDiv">
+                <img src="../assets/me.jpeg" id="me" class="mainImage" alt="A photo of me drinking some coffee">
+            </div>
+            <div id="myText">
+                FullStack Developer:<br>Hemerson Violin
+            </div>
         </div>
-        <div class="mainImage" id="mainImageDiv">
-            <img src="../assets/me.jpeg" id="me" class="mainImage" alt="A photo of me drinking some coffee">
+        <div id="contactButtons">
+            <a href="https://wa.me/5541995785655">
+                <button class="myButton greenShadow"><img src="../assets/whatsapp.svg" class="icon" alt="My Whatsapp, contact button."></button>
+            </a>
+            <a href="https://www.linkedin.com/in/hemerson-violin">
+                <button class="myButton blueShadow"><img src="../assets/linkedin.svg" class="icon" alt="My LinkedIn, contact button."></button>
+            </a>
+            <a href="https://github.com/Hemershow">
+                <button class="myButton blackShadow"><img src="../assets/github.svg" class="icon" alt="My GitHub, contact button."></button>
+            </a>
         </div>
-        <div id="myText">
-            Software Developer:<br>Hemerson Violin
-        </div>
-        <div id="projectTextDiv">
-        </div>
-        <div id="sliders">
-            <button class="slider" onclick="selectProject(this)"></button>
-            <button class="slider" onclick="selectProject(this)"></button>
-            <button class="slider" onclick="selectProject(this)"></button>
-        </div>
-    </div>
-    <div id="switchButtons">
-        <button class="myButton blueShadow" onclick="switchProject(-1)"><img src="../assets/left.png" class="icon" alt="Next project button."></button>
-        <button class="myButton blueShadow" onclick="switchProject(1)"><img src="../assets/right.png" class="icon" alt="Next project button."></button>
-    </div>
-    <div id="contactButtons">
-        <a href="https://wa.me/5541995785655">
-            <button class="myButton greenShadow"><img src="../assets/whatsapp.svg" class="icon" alt="My Whatsapp, contact button."></button>
-        </a>
-        <a href="https://www.linkedin.com/in/hemerson-violin">
-            <button class="myButton blueShadow"><img src="../assets/linkedin.svg" class="icon" alt="My LinkedIn, contact button."></button>
-        </a>
-        <a href="https://github.com/Hemershow">
-            <button class="myButton blackShadow"><img src="../assets/github.svg" class="icon" alt="My GitHub, contact button."></button>
-        </a>
-    </div>
-    <div>
-        <button id="projectsButton" onclick="changeButton()">Latest Projects</button>
     </div>
     <div class="rects">
         <div class="rect"></div>
@@ -73,6 +61,5 @@
         <div class="rect"></div>
         <div class="rect"></div>
     </div>
-    <script src="../static/myscripts.js"></script>
 </body>
 </html>

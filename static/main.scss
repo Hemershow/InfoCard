@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     background: radial-gradient(ellipse at center, #706b81 0%, #34323C 100%);
     overflow: hidden;
@@ -49,7 +50,6 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2vh;
     height: 60vh;
     width: 45vh;
     background-color: #ECEEF4;
@@ -124,6 +124,8 @@ h1 {
 #contactButtons {
     margin-top: 3vh;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 2vw;
 }
 
